@@ -6,7 +6,7 @@ class HelloWorld {
         int add= numOne + numTwo;
         int sub= numOne-numTwo;
         int div= numOne / numTwo;
-        int mul= numOne + numTwo;
+        int mul= numOne * numTwo;
         
         
         System.out.println("Addition= "+ add );

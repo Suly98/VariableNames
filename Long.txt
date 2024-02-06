@@ -6,7 +6,7 @@ class HelloWorld {
         long add= numOne + numTwo;
         long sub= numOne-numTwo;
         long div= numOne / numTwo;
-        long mul= numOne + numTwo;
+        long mul= numOne * numTwo;
         
         
         System.out.println("Addition= "+ add );
