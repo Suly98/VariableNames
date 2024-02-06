@@ -1,0 +1,19 @@
+class HelloWorld {
+    public static void main(String[] args) {
+        short numOne= 70;
+        short numTwo= 35;
+        
+        short add= (short) (numOne + numTwo);
+        short sub= (short) (numOne - numTwo);
+        short div= (short) (numOne / numTwo);
+        short mul= (short) (numOne * numTwo);
+        
+        
+        
+        System.out.println("Addition= "+ add );
+        System.out.println("Substraction= "+ sub);
+        System.out.println("Division= "+ div);
+        System.out.println("Multiplication= "+ mul);
+
+    }
+}

@@ -1,0 +1,18 @@
+class HelloWorld {
+    public static void main(String[] args) {
+        long numOne= 9234453L;
+        long numTwo= 1876657L;
+        
+        long add= numOne + numTwo;
+        long sub= numOne-numTwo;
+        long div= numOne / numTwo;
+        long mul= numOne + numTwo;
+        
+        
+        System.out.println("Addition= "+ add );
+        System.out.println("Substraction= "+ sub);
+        System.out.println("Division= "+ div);
+        System.out.println("Multiplication= "+ mul);
+
+    }
+}

@@ -1,0 +1,18 @@
+class HelloWorld {
+    public static void main(String[] args) {
+        double numOne= 7000.3500d;
+        double numTwo= 3500.1250d;
+        
+        double add= numOne + numTwo;
+        double sub= numOne-numTwo;
+        double div= numOne / numTwo;
+        double mul= numOne * numTwo;
+        
+        
+        System.out.println("Addition= "+ add );
+        System.out.println("Substraction= "+ sub);
+        System.out.println("Division= "+ div);
+        System.out.println("Multiplication= "+ mul);
+
+    }
+}

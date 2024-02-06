@@ -1,0 +1,19 @@
+class HelloWorld {
+    public static void main(String[] args) {
+        byte numOne= 70;
+        byte numTwo= 35;
+        
+        byte add= (byte) (numOne + numTwo);
+        byte sub= (byte) (numOne - numTwo);
+        byte div= (byte) (numOne / numTwo);
+        byte mul= (byte) (numOne * numTwo);
+        
+        
+        
+        System.out.println("Addition= "+ add );
+        System.out.println("Substraction= "+ sub);
+        System.out.println("Division= "+ div);
+        System.out.println("Multiplication= "+ mul);
+
+    }
+}
